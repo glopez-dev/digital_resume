@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+}
+
+h1, h3 {
+    color: #ffdf2b;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h2, h4, h5, p, li {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.python_tag {
+    background-color: #ffdf2b;
+    color: #004aad;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 767px) {
+    body {
+        height: auto;
+
+        margin: 0px;
+        padding: 12.5vh 5vw;
+
+        background-color: #004aad;
+    }
+
+    h1 {
+        font-size: 5vh;
+        padding: 0px;
+        margin: 0px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h1  svg {
+        height: 5vh;
+        width: 5vh;
+
+        font-size: 5vh;
+        display: flex;
+        fill: yellow;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 2.5vh;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 1vh;
+    }
+
+    #photo_container {
+        margin: 2.5vh 0vw;
+
+        height: 50vw;
+        width: fit-content;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        
+        overflow: hidden;
+        border: 3px solid #ffdf2b;
+
+
+    }
+
+    #photo_container > img {
+        width: 50vw; 
+        height: 50vh;
+    }
+
+    header {
+        height: auto;
+        width: 100vw;
+
+        padding: 2vh 5vw;
+
+        position: fixed;
+        top: 0px;
+        left: 0px;
+
+        background-color: #004aad;
+    }
+
+    h3 {
+        margin: 0px;
+        font-size: 2.25vh;
+    }
+
+    article > h4 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 1.5vh;
+    }
+
+    #experiences > article > h4 {
+        border-bottom: #ffdf2b solid 2.5px;
+        text-transform: uppercase;
+        padding-bottom: 1vh;
+    }
+
+    #experiences > article > h5 {
+        margin: 0px;
+    }
+
+    #experiences > article > ul {
+        margin: 1vh 0vw;
+    } 
+
+    section > h4 {
+        font-family: 'Archivo Black', sans-serif;
+        color: #ffdf2b;
+        font-size: 2.25vh;
+        margin-bottom: 0px;
+    }
+
+    .spaced_list li {
+        margin: 1vh 0vw;
+    }
+
+    #web_prog {
+        margin-bottom: 2vh;
+    }
+
+    #techno_table {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+        width: 80vw;
+    
+        margin: 2vh 1vw 10px;
+        padding: 2vw;
+        border-radius: 2.5vw;
+
+    }
+
+    #table_container {
+        overflow-x: auto;
+    }
+
+    #techno_table  td, #techno_table  th {
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    #techno_table > tr {
+        border: 2px solid black;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        height: auto;
+
+        margin: 0px;
+        padding: 12.5vh 5vw;
+
+        background-color: #004aad;
+    }
+
+    h1 {
+        font-size: 5vh;
+        padding: 0px;
+        margin: 0px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h1  svg {
+        height: 5vh;
+        width: 5vh;
+
+        font-size: 5vh;
+        display: flex;
+        fill: yellow;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 2.5vh;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 1vh;
+    }
+
+    #photo_container {
+        margin: 2.5vh 0vw;
+
+        height: 50vw;
+        width: fit-content;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        
+        overflow: hidden;
+        border: 3px solid #ffdf2b;
+    }
+
+    #photo_container > img {
+        width: 100%; 
+        height: auto;
+    }
+
+    header {
+        height: auto;
+        width: 100vw;
+
+        padding: 2vh 5vw;
+
+        position: fixed;
+        top: 0px;
+        left: 0px;
+
+        background-color: #004aad;
+    }
+
+    h3 {
+        margin: 0px;
+        font-size: 2.25vh;
+    }
+
+    article > h4 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 1.5vh;
+    }
+
+    #experiences > article > h4 {
+        border-bottom: #ffdf2b solid 2.5px;
+        text-transform: uppercase;
+        padding-bottom: 1vh;
+    }
+
+    #experiences > article > h5 {
+        margin: 0px;
+    }
+
+    #experiences > article > ul {
+        margin: 1vh 0vw;
+    } 
+
+    section > h4 {
+        font-family: 'Archivo Black', sans-serif;
+        color: #ffdf2b;
+        font-size: 2.25vh;
+        margin-bottom: 0px;
+    }
+
+    .spaced_list li {
+        margin: 1vh 0vw;
+    }
+
+    section {
+        margin: 40px 0px;
+    }
+
+    #web_prog {
+        margin-bottom: 2vh;
+    }
+
+    #techno_table {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+        width: 100%;
+    
+        margin: 2vh 0px 10px;
+        padding: 2vw;
+        border-radius: 2.5vw;
+    }
+
+    #table_container {
+        overflow-x: auto;
+    }
+
+    #techno_table  td, #techno_table  th {
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    #techno_table > tr {
+        border: 2px solid black;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        display: grid;
+        grid-template-columns: 2fr 7fr;
+        grid-template-rows: 1fr;
+
+        background-color: #004aad;
+
+        height: fit-content;
+
+        margin: 0px;
+        margin-left: 0px;
+
+    }
+
+    header {
+        grid-column: 2;
+        grid-row:  1;
+
+        margin: 20px 20px 0px;
+    }
+
+    img {
+        width: auto;
+        height: 30vw; 
+
+        border-bottom: 2px solid #ffdf2b;
+    }
+
+    #photo_container {
+        width: auto;
+        height: 30vw;
+
+        margin: 0px;
+
+        border-right: 2px solid #ffdf2b;
+
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    aside {
+        grid-column: 1;
+        grid-row: 1;
+
+        padding: 31vw 20px 0px;
+
+        border-right: 3px solid #ffdf2b;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    h1 {
+        font-size: 5vh;
+        margin: 0px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h1  svg {
+        height: 5vh;
+        width: 5vh;
+
+        font-size: 5vh;
+        display: flex;
+        fill: yellow;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 2.5vh;
+        margin: 0px;
+        margin-top: 1vh;
+
+    }
+
+    main {
+        grid-column: 2;
+        grid-row: 1;
+
+        padding-top: 150px;
+        padding: 150px 30px 0px
+
+    } 
+
+    h3 {
+        margin: 0px;
+        font-size: 2.25vh;
+    }
+
+    
+
+    article > h4 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 1.5vh;
+    }
+
+    #experiences > article > h4 {
+        border-bottom: #ffdf2b solid 2.5px;
+        text-transform: uppercase;
+        padding-bottom: 1vh;
+    }
+
+    #experiences > article > h5 {
+        margin: 0px;
+    }
+
+    #experiences > article > ul {
+        margin: 1vh 0vw;
+    } 
+
+    section > h4 {
+        font-family: 'Archivo Black', sans-serif;
+        color: #ffdf2b;
+        font-size: 2.25vh;
+        margin-bottom: 0px;
+    }
+
+    .spaced_list li {
+        margin: 1vh 0vw;
+    }
+
+    section {
+        margin: 40px 0px;
+    }
+
+    #web_prog {
+        margin-bottom: 2vh;
+    }
+
+    #techno_table {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+        width: 100%;
+    
+        margin: 2vh 0px 10px;
+        padding: 2vw;
+        border-radius: 2.5vw;
+    }
+
+    #table_container {
+        overflow-x: auto;
+    }
+
+    #techno_table  td, #techno_table  th {
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    #techno_table > tr {
+        border: 2px solid black;
+    }
+
+    #contact {
+        order: -1;
+        margin: 20px 0px;
+    }
+
+    #data {
+        margin-bottom: 0px;
+    }
+
+
+}
