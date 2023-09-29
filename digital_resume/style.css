@@ -64,6 +64,12 @@ h2, h4, h5, p, li {
     padding-left: 10px;
 }
 
+@media (max-width: 586px) {
+    header {
+        height: 150px !important;
+    }
+}
+
 
 @media (max-width: 767px) {
     body {
