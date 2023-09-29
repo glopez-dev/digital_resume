@@ -14,6 +14,7 @@ h2, h4, h5, p, li {
 
 
 
+
 .python_tag {
     background-color: #ffdf2b;
     color: #004aad;
@@ -82,6 +83,7 @@ h2, h4, h5, p, li {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        text-shadow: black -5px 2px;
     }
 
     h1  svg {
@@ -209,6 +211,7 @@ h2, h4, h5, p, li {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        text-shadow: black -5px 2px;
     }
 
     h1  svg {
@@ -396,7 +399,9 @@ h2, h4, h5, p, li {
     }
 
     h1 > span {
-       animation: MovingTitle 5s linear 3;
+        padding-left: 10px;
+        animation: MovingTitle 5s linear 3;
+        text-shadow: black -5px 2px;
     }
 
     h1  svg {
@@ -415,6 +420,8 @@ h2, h4, h5, p, li {
         font-size: 2.5vh;
         margin: 0px;
         margin-top: 1vh;
+
+        padding-left: 10px;
 
         animation: MovingTitle 7s linear 2s 2 reverse;
     }
@@ -482,10 +489,12 @@ h2, h4, h5, p, li {
 
     #contact h3 {
         animation: Beating 5s linear infinite;
+        text-shadow: black -5px 2px;
     }
 
     #data h3 {
         animation: Beating 5s linear 2s infinite;
+        text-shadow: black -5px 2px;
     }
 
     header svg {
@@ -501,11 +510,13 @@ h2, h4, h5, p, li {
 
     99% {
         transform: translateX(99%);
+        text-shadow: #004aad 1px 1px; 
     }
 
     100% {
         transform: translate(0%);
         color: #004aad;
+        text-shadow: none;
     }
 }
 
