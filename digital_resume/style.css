@@ -21,6 +21,48 @@ h2, h4, h5, p, li {
     border-radius: 5px;
 }
 
+#web_prog ul {
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#web_prog li {
+    margin: 5px 0px;
+}
+
+#web_prog i {
+    color: #ffdf2b;
+}
+
+#contact i {
+    font-size: 24px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
+#data {
+    margin: 0;
+}
+
+#data li {
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+
+#data ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+#contact ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
 
 @media (max-width: 767px) {
     body {
@@ -33,7 +75,7 @@ h2, h4, h5, p, li {
     }
 
     h1 {
-        font-size: 5vh;
+        font-size: 42px;
         padding: 0px;
         margin: 0px;
 
@@ -43,10 +85,10 @@ h2, h4, h5, p, li {
     }
 
     h1  svg {
-        height: 5vh;
-        width: 5vh;
+        height: 42px;
+        width: 42px;
 
-        font-size: 5vh;
+        font-size: 6vh;
         display: flex;
         fill: yellow;
         flex-direction: column;
@@ -55,17 +97,18 @@ h2, h4, h5, p, li {
     }
 
     h2 {
-        font-size: 2.5vh;
+        font-size: 22px;
         padding: 0px;
+        padding-bottom: 10px;
         margin: 0px;
         margin-top: 1vh;
     }
 
     #photo_container {
-        margin: 2.5vh 0vw;
+        margin: 50px 18vw;
 
         height: 50vw;
-        width: fit-content;
+        width: 50vw;
 
         display: flex;
         flex-direction: column;
@@ -75,16 +118,15 @@ h2, h4, h5, p, li {
         overflow: hidden;
         border: 3px solid #ffdf2b;
 
-
     }
 
     #photo_container > img {
-        width: 50vw; 
-        height: 50vh;
+        width: 100%; 
+        height: auto;
     }
 
     header {
-        height: auto;
+        height: 120px;
         width: 100vw;
 
         padding: 2vh 5vw;
@@ -98,13 +140,17 @@ h2, h4, h5, p, li {
 
     h3 {
         margin: 0px;
-        font-size: 2.25vh;
+        font-size: 24px;
     }
 
     article > h4 {
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
-        font-size: 1.5vh;
+        font-size: 24px;
+    }
+
+    #experiences {
+        padding-bottom: 50px;
     }
 
     #experiences > article > h4 {
@@ -132,33 +178,16 @@ h2, h4, h5, p, li {
         margin: 1vh 0vw;
     }
 
-    #web_prog {
-        margin-bottom: 2vh;
+    #data {
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ffdf2b;
     }
 
-    #techno_table {
-        font-family: 'Roboto', sans-serif;
-        background-color: white;
-        width: 80vw;
-    
-        margin: 2vh 1vw 10px;
-        padding: 2vw;
-        border-radius: 2.5vw;
-
+    #certification {
+        border-top: 2px solid #ffdf2b;
     }
 
-    #table_container {
-        overflow-x: auto;
-    }
-
-    #techno_table  td, #techno_table  th {
-        padding: 10px;
-        border: 2px solid black;
-    }
-
-    #techno_table > tr {
-        border: 2px solid black;
-    }
 
 }
 
@@ -173,7 +202,7 @@ h2, h4, h5, p, li {
     }
 
     h1 {
-        font-size: 5vh;
+        font-size: 5vw;
         padding: 0px;
         margin: 0px;
 
@@ -217,7 +246,7 @@ h2, h4, h5, p, li {
     }
 
     #photo_container > img {
-        width: 100%; 
+        max-width: 100%; 
         height: auto;
     }
 
@@ -236,13 +265,13 @@ h2, h4, h5, p, li {
 
     h3 {
         margin: 0px;
-        font-size: 2.25vh;
+        font-size: 3vw;
     }
 
     article > h4 {
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
-        font-size: 1.5vh;
+        font-size: 1.5vw;
     }
 
     #experiences > article > h4 {
@@ -278,28 +307,21 @@ h2, h4, h5, p, li {
         margin-bottom: 2vh;
     }
 
-    #techno_table {
-        font-family: 'Roboto', sans-serif;
-        background-color: white;
-        width: 100%;
-    
-        margin: 2vh 0px 10px;
-        padding: 2vw;
-        border-radius: 2.5vw;
+    #certification h4 {
+       font-size: 3vw; 
     }
 
-    #table_container {
-        overflow-x: auto;
+    #data {
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ffdf2b;
     }
 
-    #techno_table  td, #techno_table  th {
-        padding: 10px;
-        border: 2px solid black;
+    #certification {
+        border-top: 2px solid #ffdf2b;
     }
 
-    #techno_table > tr {
-        border: 2px solid black;
-    }
+
 }
 
 @media (min-width: 1025px) {
@@ -322,6 +344,7 @@ h2, h4, h5, p, li {
         grid-row:  1;
 
         margin: 20px 20px 0px;
+        overflow: hidden;
     }
 
     img {
@@ -341,6 +364,7 @@ h2, h4, h5, p, li {
 
         grid-column: 1;
         grid-row: 1;
+
     }
 
     aside {
@@ -356,6 +380,11 @@ h2, h4, h5, p, li {
 
     }
 
+    aside ul {
+        list-style: none;
+        padding: 0;
+    }
+
     h1 {
         font-size: 5vh;
         margin: 0px;
@@ -363,6 +392,11 @@ h2, h4, h5, p, li {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
+    }
+
+    h1 > span {
+       animation: MovingTitle 5s linear 3;
     }
 
     h1  svg {
@@ -382,6 +416,7 @@ h2, h4, h5, p, li {
         margin: 0px;
         margin-top: 1vh;
 
+        animation: MovingTitle 7s linear 2s 2 reverse;
     }
 
     main {
@@ -397,8 +432,6 @@ h2, h4, h5, p, li {
         margin: 0px;
         font-size: 2.25vh;
     }
-
-    
 
     article > h4 {
         font-family: 'Roboto', sans-serif;
@@ -425,6 +458,7 @@ h2, h4, h5, p, li {
         color: #ffdf2b;
         font-size: 2.25vh;
         margin-bottom: 0px;
+
     }
 
     .spaced_list li {
@@ -439,37 +473,48 @@ h2, h4, h5, p, li {
         margin-bottom: 2vh;
     }
 
-    #techno_table {
-        font-family: 'Roboto', sans-serif;
-        background-color: white;
-        width: 100%;
-    
-        margin: 2vh 0px 10px;
-        padding: 2vw;
-        border-radius: 2.5vw;
-    }
-
-    #table_container {
-        overflow-x: auto;
-    }
-
-    #techno_table  td, #techno_table  th {
-        padding: 10px;
-        border: 2px solid black;
-    }
-
-    #techno_table > tr {
-        border: 2px solid black;
-    }
 
     #contact {
         order: -1;
         margin: 20px 0px;
+
     }
 
-    #data {
-        margin-bottom: 0px;
+    #contact h3 {
+        animation: Beating 5s linear infinite;
     }
 
+    #data h3 {
+        animation: Beating 5s linear 2s infinite;
+    }
+
+    header svg {
+        fill : #004aad;
+    }
 
 }
+
+@keyframes MovingTitle {
+    50% {
+        transform: translateX(50%);
+    }
+
+    99% {
+        transform: translateX(99%);
+    }
+
+    100% {
+        transform: translate(0%);
+        color: #004aad;
+    }
+}
+
+@keyframes Beating{
+   50% {
+     transform: rotate(2deg);
+   } 
+   100%, 0%{
+    transform: rotate(-2deg);
+   }
+}
+
